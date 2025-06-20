@@ -12,6 +12,12 @@ cask "cmd-eikana" do
 
   app "⌘英かな.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/⌘英かな.app"],
+                   sudo: false
+  end
+
   uninstall quit: "io.github.imasanari.cmd-eikana"
 
   zap trash: [
