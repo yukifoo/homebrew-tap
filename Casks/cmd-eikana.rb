@@ -1,6 +1,6 @@
 cask "cmd-eikana" do
-  version "2.2.4"
-  sha256 "604a140bb91a34123aba5a1362521155da3c8e1fc61ee1c452123f36ee20742b"
+  version "2.2.5"
+  sha256 "ed6fe366d20ddcc0a00b7bea06f2321b664369f20dfee1888e76be5e7b367b12"
 
   url "https://github.com/yukifoo/cmd-eikana/releases/download/v#{version}/cmd-eikana.dmg"
   name "cmd-eikana"
